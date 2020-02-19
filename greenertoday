@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<title> Greener Today ADP</title>
+<meta charset="UTF-8">
+<!-- Favicon -->
+<link rel='icon' href='/users/madi/desktop/trees/favicon.ico' type='image/x-icon'/ >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Free Spreadsheet -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Google Font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+<!-- Social Media Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+h1,h2,h3,h4,h5,h6 {font-family: 'Comfortaa', comfortaa;}
+
+body {
+
+background-color: #FFF8DC;
+font-family: 'Comfortaa', comfortaa;
+
+}
+footer {
+
+font-family: 'Comfortaa', comfortaa;
+
+}
+</style>
+<body class="w3-light-grey">
+<!-- Menu -->
+<div class="w3-bar w3-hide-small">
+<a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+<a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+<a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+<a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+<a href="#" class="w3-bar-item w3-button w3-center w3-text-black"><b>Home</b></a>
+<a href="#" class="w3-bar-item w3-button w3-center w3-text-black"><b>FAQs</b></a>
+
+<a href="#" class="w3-bar-item w3-button w3-center w3-text-black"><b>More Info/Links</b></a>
+<a href="#" class="w3-bar-item w3-button w3-center w3-text-black"><b>Gallery</b></a>
+<a href="#" class="w3-bar-item w3-button w3-center w3-text-black"><b>Planting</b></a>
+<a href="#" class="w3-bar-item w3-button w3-center w3-text-black"> <b>About Us</b></a>
+<a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+<!-- w3 content -->
+<div class="w3-content" style="max-width:1500px">
+<!-- Header -->
+<header class= "w3-container w3-center w3-padding-48 w3-white">
+<h1 class="w3-jumbo"><b>Greener Today</b></h1>
+<h6> It all starts with <span class="w3-tag">We Can</span></h6>
+</header>
+<!-- Image Header -->
+<header class= "w3-display-container w3-wide" id="home">
+<img class="w3-image" src="trees/logo.jpeg" alt="logo" width="1600" height="1020">
+<div class="w3-display-left w3-padding-large">
+</div>
+</header>
+<!-- Grid -->
+<div class="w3-row w3-padding w3-border">
+<!-- POSSIBLY DELETE LATER -->
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+<!-- Blog entry -->
+<div class="w3-container w3-white w3-wide w3-margin w3-padding-large">
+<div class="w3-center">
+<h3>Countdown</h3>
+<h5>Arbor Day: <span class="w3-opacity">Friday, April 24, 2020</span></h5>
+</div>
+<div class="w3-justify">
+
+<!-- Timer Code -->
+
+<div class="w3-center">
+<iframe
+src="http://free.timeanddate.com/countdown/i74amo7t/n5546/cf100/cm0/cu4/ct2/cs0/ca0/co0/cr0/ss0/cac000/c
+pcfff8dc/pcfff/tcfff/fs325/szw448/szh189/iso2020-04-24T00:00:00" allowTransparency="true" frameborder="0"
+width="448" height="189"></iframe>
+</div>
+<!-- End of Timer Code -->
+<p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i
+class="fa fa-thumbs-up"></i> Like </b></button></p>
+<p class="w3-right"><button class="w3-button w3-white w3-border" onclick="myFunction('demo1')"
+id="myBtn"><b>Replies</b> <span class="w3-tag w3-white">1</span></button></p>
+<p class="w3-clear"></p>
+<div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+<hr>
+<div class="w3-col l2 m3">
+</div>
+<div class="w3-col l10 m9">
+<h4>Madison N <span class="w3-opacity w3-medium"></span></h4>
+<p>Comment ways we can celebrate Arbor Day!!</p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<!-- Blog entry -->
+<div class="w3-container w3-white w3-margin w3-padding-large">
+<div class="w3-center">
+<h3>About Us</h3>
+<h5>Pottsville High School <span class="w3-opacity"></span></h5>
+</div>
+<div class="w3-justify">
+<!-- About Us Pic -->
+<img src="/w3images/man_hat.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+<p><strong>Hello!!</strong> We want to give you a warm welcome to our site!!</p>
+<p> We are located in a small school district, but we are looking to make a BIG impact. For more
+information about us, our mission, or our goals... please visit the "About Us" tab. Make sure to follow our social
+media acounts for "Greener Today" to learn more about our movement! </p>
+<p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i
+class="fa fa-thumbs-up"></i> Like</b></button></p>
+
+<p class="w3-right"><button class="w3-button w3-white w3-border"
+onclick="myFunction('demo2')"><b>Replies</b> <span class="w3-tag w3-white">1</span></button></p>
+<p class="w3-clear"></p>
+<!-- Example of comment field -->
+<div id="demo2" style="display:none">
+<div class="w3-row">
+<hr>
+<div class="w3-col l2 m3">
+</div>
+<div class="w3-col l10 m9">
+<h4>Brenlee B <span class="w3-opacity w3-medium"></span></h4>
+<p> Love this!!</p><br>
+</div>
+</div>
+<div class="w3-row w3-margin-bottom">
+<div class="w3-col l2 m3">
+</div>
+<div class="w3-col l10 m9">
+<!-- Extra div -->
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Blog entry -->
+<div class="w3-container w3-white w3-margin w3-padding-large">
+<div class="w3-center">
+<!-- Tree Image -->
+<img class="w3-image" src="/users/madi/desktop/trees/trees1.jpeg" alt="Trees" width="1600"
+height="1060">
+</div>
+<div class="w3-justify">
+<p><strong>Did you know...</strong> Trees are the longest living organisms on the planet and one of
+the earth's greatest natural resources!</p>
+<p> They keep air supply clean, reduce noise pollution, improve water quality, prevent erosion, provide
+food and building materials, create shade, and make our landscapes look beautiful.
+</p>
+<p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i
+class="fa fa-thumbs-up"></i> Like</b></button></p>
+<p class="w3-right"><button class="w3-button w3-white w3-border"
+onclick="myFunction('demo3')"><b>Replies </b> <span class="w3-tag w3-white">1</span></button></p>
+
+<p class="w3-clear"></p>
+<!-- Example of comment field -->
+<div id="demo3" style="display:none">
+<hr>
+<div class="w3-row w3-margin-bottom">
+<div class="w3-col l2 m3">
+</div>
+<div class="w3-col l10 m9">
+<h4>Jada P <span class="w3-opacity w3-medium"></span></h4>
+<p> SOURCE: https://www.treesaregood.org/funfacts </p>
+</div>
+</div>
+<!-- Never enough div -->
+</div>
+</div>
+</div>
+<!-- End entries -->
+</div>
+<!-- About/Information menu -->
+<div class="w3-third w3-col 14">
+<!-- About Card -->
+<div class="w3-white w3-margin">
+<div class="w3-container w3-black">
+<h4> Greener Today </h4>
+<p> Starts with WE CAN </p>
+</div>
+</div
+<hr>
+
+<!-- Type of Trees -->
+<div class="w3-white w3-margin">
+<div class="w3-container w3-padding w3-black">
+<h4>Types of Trees For Your Community!!</h4>
+</div>
+<ul class="w3-ul w3-hoverable w3-white">
+<!-- Cedar -->
+<li class="w3-padding-16">
+
+<img src="/users/madi/desktop/trees/cedar.jpg" alt="cedar" class="w3-left w3-margin-right"
+style="width:50px">
+<span class="w3-large">Cedar</span><br>
+<span>Good for helping drainage problems</span>
+</li>
+<!-- Cypress -->
+<li class="w3-padding-16">
+<img src="/users/madi/desktop/trees/cypress.jpg" alt="cypress" class="w3-left w3-margin-right"
+style="width:50px">
+<span class="w3-large">Cypress</span><br>
+<span>Fast-growing</span>
+</li>
+<!-- Shortleaf Pine -->
+<li class="w3-padding-16">
+<img src="/users/madi/desktop/trees/pine.jpeg" alt="pine" class="w3-left w3-margin-right"
+style="width:50px">
+<span class="w3-large">Shortleaf Pine</span><br>
+<span>Tolerates many different weather circumstances</span>
+</li>
+<!-- Oak -->
+<li class="w3-padding-16">
+<img src="/users/madi/desktop/trees/oak.jpg" alt="oak" class="w3-left w3-margin-right"
+style="width:50px">
+<span class="w3-large">Oak</span><br>
+<span>Prized for its hardness, density, and durability</span>
+</li>
+</ul>
+</div>
+<hr>
+<!-- Advertising -->
+<div class="w3-white w3-margin">
+<div class="w3-container w3-padding w3-black w3-center">
+<h4>Follow us on Insta!</h4>
+<h6> @greenertoday_adp
+</div>
+<div class="w3-container w3-white">
+<div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+</div>
+
+</div>
+</div>
+<hr>
+<!-- Tags -->
+<div class="w3-white w3-margin">
+<div class="w3-container w3-padding w3-black">
+<h4>Places You Can Plant</h4>
+</div>
+<div class="w3-container w3-white">
+<p>
+<span class="w3-tag w3-light-grey w3-margin-bottom">Schools</span>
+<span class="w3-tag w3-light-grey w3-margin-bottom">Local Business</span>
+<span class="w3-tag w3-light-grey w3-margin-bottom">City Parks</span>
+<span class="w3-tag w3-light-grey w3-margin-bottom"></span>
+<span class="w3-tag w3-light-grey w3-margin-bottom">Ball Fields</span>
+<span class="w3-tag w3-light-grey w3-margin-bottom">Courtyards</span>
+<span class="w3-tag w3-light-grey w3-margin-bottom">Outdoor Classrooms</span>
+<span class="w3-tag w3-light-grey w3-margin-bottom">Parking Lot Islands</span>
+<span class="w3-tag w3-light-grey w3-margin-bottom">Along Fences</span>
+<span class="w3-tag w3-light-grey w3-margin-bottom">Outdoor Commons</span>
+<span class="w3-tag w3-light-grey w3-margin-bottom">Areas for Shade</span>
+</p>
+</div>
+</div>
+<hr>
+<!--Follow Us -->
+<div class="w3-white w3-margin">
+<div class="w3-container w3-padding w3-black">
+<h4>Follow Us</h4>
+</div>
+<div class="w3-container w3-xlarge w3-padding">
+<i class="fa fa-instagram w3-hover-opacity"></i>
+<i class="fa fa-facebook-official w3-hover-opacity"></i>
+<i class="fa fa-snapchat w3-hover-opacity"></i>
+<i class="fa fa-twitter w3-hover-opacity"></i>
+</div>
+</div>
+<hr>
+<!-- Join -->
+
+<div class="w3-white w3-margin">
+<div class="w3-container w3-padding w3-black">
+<h4>Join Us</h4>
+</div>
+<div class="w3-container w3-white">
+<p>Enter your e-mail below and get notified on the latest.</p>
+<p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+<p><button type="button" onclick="document.getElementById('subscribe').style.display='block'"
+class="w3-button w3-block w3-black">Join Us</button></p>
+</div>
+</div>
+<!-- End About/Intro Menu -->
+</div>
+<!-- DONT DELETE -->
+<!-- END Grid -->
+</div>
+<!-- END w3-content -->
+</div>
+<!-- POSSIBLY DELETE LATER -->
+<!-- Join Us Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+<div class="w3-modal-content" style="padding:32px">
+<div class="w3-container w3-white">
+<i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove
+w3-transparent w3-button w3-xlarge w3-right"></i>
+<h2 class="w3-wide">JOIN US</h2>
+<p>Enter your email below to receive updates on the latest news!!</p>
+<p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+<button type="button" class="w3-button w3-block w3-padding-large w3-black w3-margin-bottom"
+onclick="document.getElementById('subscribe').style.display='none'">Join Us</button>
+</div>
+</div>
+</div>
+<!-- DONT DELETE -->
+<!-- Footer -->
+<hr>
+<footer class="w3-container w3-dark-grey" style="padding: 32px">
+<a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up
+w3-margin-right"></i> Return to Top</a>
+<p> <a href="https://www.instagram.com/" target="_blank">#greenertoday</a> &copy; </p>
+
+<!-- Tree Icon -->
+<i class="fa fa-tree" style="font-size:20px;color:white"></i>
+</footer>
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+var x = document.getElementById(id);
+if (x.className.indexOf("w3-show") == -1) {
+x.className += " w3-show";
+} else {
+x.className = x.className.replace(" w3-show", "");
+}
+}
+function likeFunction(x) {
+x.style.fontWeight = "bold";
+x.innerHTML = "✓ Liked";
+}
+</script>
+</body>
+</html>
